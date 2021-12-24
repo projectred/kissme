@@ -23,7 +23,7 @@ func TestKissMe(t *testing.T) {
 		t.Errorf("km.Honey should be sweety, but it is %s", km.Honey)
 	}
 	if km.Love != "forever" {
-		t.Errorf("km.Love should be forevet, but it is %s", km.Love)
+		t.Errorf("km.Love should be forever, but it is %s", km.Love)
 	}
 }
 
